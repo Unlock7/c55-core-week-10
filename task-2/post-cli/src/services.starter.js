@@ -1,5 +1,5 @@
 // Change base URL for API requests to the local IP of the Post Central API server
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = "https://postcentral.hyf.dev";
 
 // ============================================================================
 // AUTH TOKEN - Stored after login/register, sent with every request
@@ -37,7 +37,7 @@ const getHello = async () => {
   const response = await fetch(`${BASE_URL}/posts/hello`);
   if (!response.ok) {
     throw new Error(
-      `Failed to get hello: HTTP ${response.status} ${response.statusText}`
+      `Failed to get hello: HTTP ${response.status} ${response.statusText}`,
     );
   }
   return await response.json();
@@ -68,15 +68,15 @@ const getMe = async () => {
  */
 const createUser = async (name, password) => {
   const response = await fetch(`${BASE_URL}/users/register`, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({ name, password }),
   });
   if (!response.ok) {
     throw new Error(
-      `Failed to create user: HTTP ${response.status} ${response.statusText}`
+      `Failed to create user: HTTP ${response.status} ${response.statusText}`,
     );
   }
   return await response.json();

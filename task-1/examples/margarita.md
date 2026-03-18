@@ -129,4 +129,3 @@ Serve in: Cocktail glass
 In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.
 
 Serve in: Collins glass
-

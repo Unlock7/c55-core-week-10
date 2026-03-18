@@ -24,5 +24,14 @@
   },
   "devDependencies": {
     "vitest": "^4.0.18"
-  }
+  },
+  "main": "vitest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unlock7/c55-core-week-10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Unlock7/c55-core-week-10/issues"
+  },
+  "homepage": "https://github.com/Unlock7/c55-core-week-10#readme"
 }
